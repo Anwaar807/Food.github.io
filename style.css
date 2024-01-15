@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: inter saans;
+}
+.sec1{
+    background-image: url(bn1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.sec1 h6{
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.sec1 h1{
+    font-size: 58px;
+    font-weight: 800;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: -30px;
+    font-family: Playfair Display;
+}
+.sec1 p{
+    width: 32%;
+    margin-left: 80px;
+    line-height: 40px;
+    
+}
+
+.sec1 input{
+    width: 400px;
+    border: none;
+    height: 50px;
+    padding: 0 16px;
+    margin-left: 80px;
+    border-radius: 12px;
+}
+.sec1 button{
+position: absolute;
+width: 150px;
+top: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(255, 136, 27, 1);
+border-radius: 12px;
+margin-right: 2px;
+margin-bottom: 2px;
+margin-top: 2px;
+border: none;
+color: white;
+
+}
+.sec2{
+    margin-left: 5%;
+}
+.sec2 h5{
+    font-family: Dancing Script;
+    margin-right: 3%;
+}
+.sec2 button{
+    width: 190px;
+    height: 60px;
+background-color: rgba(255, 136, 27, 1);
+border-radius: 10px;
+border: none;
+}
+.brnch h1{
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom:80px;
+    text-align: center;
+    font-family:Playfair Display ;
+    font-weight: 700;
+    
+}
+
+.lond{
+background-image: url(London2.jpg);
+background-size: cover;
+width: 272px;
+height: 350px;
+border-radius: 12px;
+}
+.lond h3{
+    color: white;
+    font-family:Playfair Display ;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 300px;
+    margin-left: 10px;
+}
+.not{
+    background-image: url(Notts.jpg);
+    background-size: cover;
+    width: 272px;
+    height: 350px;
+    border-radius: 12px;
+    }
+    .not h3{
+        color: white;
+        font-family:Playfair Display ;
+        font-size: 26px;
+        font-weight: 700;
+        padding-top: 300px;
+        margin-left: 10px;
+    }
+.man{
+    background-image: url(manchester.jpg);
+    background-size: cover;
+    width: 272px;
+    height: 350px;
+    border-radius: 12px;
+    }
+    .man h3{
+        color: white;
+        font-family:Playfair Display ;
+        font-size: 26px;
+        font-weight: 700;
+        padding-top: 300px;
+        margin-left: 10px;
+    }
+.brim{
+    background-image: url(manchester.jpg);
+    background-size: cover;
+    width: 272px;
+    height: 350px;
+    border-radius: 12px;
+    }
+    .brim h3{
+        color: white;
+        font-family:Playfair Display ;
+        font-size: 26px;
+        font-weight: 700;
+        padding-top: 300px;
+        margin-left: 10px;
+    }
+    .last{
+        margin-top: 150px;
+        
+    }
+
+.suchi h3{
+    margin-top: 20px;
+font-size: 28px;
+font-weight: 700;
+font-family:Playfair Display;
+margin-left: 10px;
+}
+.suchi  span{
+    color:  rgba(255, 136, 27, 1);
+    font-family:Playfair Display;
+    margin-left: -7px;
+}
+.suchi p{
+   
+    margin-left: 10px;
+}
+.suchi i{
+    color: rgba(69, 33, 21, 1);
+}
+.about {
+    margin-left: 150px;
+    margin-bottom: -60px; 
+    width:100% ;
+}
+.about h3{
+   
+    
+    font-family: Lato;
+}
+.about ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: start;
+    line-height: 35px;
+    margin-left: -15px;
+    color:  rgba(142, 109, 98, 1);
+    font-family: Lato;
+    
+}
+.cmpny {
+    margin-left: 350px;
+    width:100% ;
+}
+.cmpny h3{
+    padding-bottom: 8px;
+    font-family: Lato;
+    margin-left: 5px;
+}
+.cmpny ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: start;
+    line-height: 35px;
+    margin-left: -25px;
+    color:  rgba(142, 109, 98, 1);
+    font-family: Lato;
+    
+}
+.cmpny input{
+    width: 224px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    opacity: 45%;  
+    font-weight: 400;
+    font-size: 23px;  
+    color: rgb(163, 15, 15);
+    border-style: none;
+}
+.cmpny button{
+    width: 146px;
+    height: 46px;
+    border-radius: 8px;
+    background-color:  rgba(255, 136, 27, 1);
+    color: white;
+    border-style: none;
+}
+
+/* formobile */
+
+    @media (min-width: 576px) { 
+
+
+    .sec1{
+        background-image: url(bn1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .sec1 h6{
+        margin-top: 100px;
+        margin-left: 90px;
+    }
+    .sec1 h1{
+        font-size: 44px;
+        font-weight: 800;
+        width: 70%;
+        margin-left: 80px;
+        margin-top: -30px;
+        font-family: Playfair Display;
+    }
+    .sec1 p{
+        width: 48%;
+        margin-left: 80px;
+        line-height: 40px;
+        
+    }
+    
+    .sec1 input{
+        width: 400px;
+        border: none;
+        height: 50px;
+        padding: 0 16px;
+        margin-left: 5px;
+        border-radius: 12px;
+    }
+    .sec1 button{
+    position: absolute;
+    width: 150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 136, 27, 1);
+    border-radius: 12px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border: none;
+    color: white;
+    
+    }
+    .sec2{
+        margin-left: 5%;
+        text-align: center;
+    }
+    .sec2 h5{
+        font-family: Dancing Script;
+       text-align: center;
+    }
+    
+    .sec2 button{
+        width: 190px;
+        height: 60px;
+    background-color: rgba(255, 136, 27, 1);
+    border-radius: 10px;
+    border: none;
+    }
+    .about {
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+    .cmpny {
+        margin-left: 10px;
+        margin-top: 20px;
+        
+    }
+    .suchi p{
+        
+        margin-left: 10px;
+    }
+    
+    
+   
+    
+    
+
+}
